@@ -1,30 +1,19 @@
 import React from 'react';
-import { IonInput, IonItem, IonList, IonCardTitle } from '@ionic/react';
+import { IonInput, IonItem, IonList, IonCardTitle,IonContent } from '@ionic/react';
 
 function Example() {
   return (
+    <IonContent>
     <IonList>
         <IonCardTitle>Crear Categoria </IonCardTitle>
       <IonItem>
-        <IonInput label="Text input" placeholder="Enter text"></IonInput>
+        <IonInput label="Nombre" placeholder="Enter text"></IonInput>
       </IonItem>
-
       <IonItem>
-        <IonInput label="Number input" type="number" placeholder="000"></IonInput>
-      </IonItem>
-
-      <IonItem>
-        <IonInput label="Password input" type="password" value="password"></IonInput>
-      </IonItem>
-
-      <IonItem>
-        <IonInput label="Email input" type="email" placeholder="email@domain.com"></IonInput>
-      </IonItem>
-
-      <IonItem>
-        <IonInput label="Telephone input" type="tel" placeholder="888-888-8888"></IonInput>
+        <IonInput label="Codigo" type="number" placeholder="000"></IonInput>
       </IonItem>
     </IonList>
+    </IonContent>
   );
 }
 export default Example;

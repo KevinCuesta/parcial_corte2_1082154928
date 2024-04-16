@@ -3,6 +3,7 @@ import Card from '../components/Card';
 import './Home.css';
 import Libros from '../components/Libros';
 import NuevosLibros from '../components/NuevosLibros';
+import Categoria from '../components/Categoria';
 
 const Home: React.FC = () => {
   return (
@@ -21,6 +22,7 @@ const Home: React.FC = () => {
         <Card/>
         <Libros/>
         <NuevosLibros/>
+        <Categoria/>
       </IonContent>
     </IonPage>
   );
