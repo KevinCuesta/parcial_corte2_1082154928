@@ -1,0 +1,24 @@
+ion-card-header {
+    display: flex; 
+    flex-direction: column; 
+    align-items: left; 
+    justify-content: space-between; 
+    padding: 5px; 
+  }
+ion-card-title {
+  display: flex;
+  align-items: center; 
+  padding: 10px;
+}
+
+ion-card-content {
+    justify-content: center;
+    text-align: justify;
+  }
+  
+ion-button {
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+}
+
